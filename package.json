@@ -1,0 +1,26 @@
+{
+  "name": "@async-util/cf",
+  "version": "0.0.1",
+  "description": "async-util for cloudflare workers / pages functions.",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "tsc && mv dist/index.js dist/index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/async-util/cf.git"
+  },
+  "keywords": [
+    "cloudflare",
+    "async"
+  ],
+  "author": "Tal (talrasha007@gmail.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/async-util/cf/issues"
+  },
+  "homepage": "https://github.com/async-util/cf#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
