@@ -1,8 +1,9 @@
 {
   "name": "@async-util/cf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "async-util for cloudflare workers / pages functions.",
   "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc && mv dist/index.js dist/index.mjs"
   },
